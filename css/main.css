@@ -17,6 +17,8 @@ body {
 }
 
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -95,6 +97,10 @@ body {
   line-height: 1.37;
   letter-spacing: 0.06em;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  outline: 2px solid tomato;
 }
 
 /* Button */
