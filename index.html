@@ -19,26 +19,34 @@
 
   <body> 
 
-    <!--Шапка сайта-->
-    <header>
-      <nav>
+    <!----Header---->
 
-        <a href="index.html" class="logo"><span lang="en" class="web">Web</span><span class="studio">Studio</span></a>
-        </a>
 
-        <ul class="site-nav list">
-          <li><a href="" class="link current">Студия</a></li>
-          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-          <li><a href="" class="link">Контакты</a></li>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-nav">
+
+          <a href="index.html" class="logo"><span lang="en" class="web">Web</span><span class="studio">Studio</span></a>
+          </a>
+
+          <ul class="site-nav list menu-list">
+            <li class="menu-item">
+              <a href="" class="link current">Студия</a></li>
+            <li class="menu-item">
+              <a href="./portfolio.html" class="link">Портфолио</a></li>
+            <li class="menu-item">
+              <a href="" class="link">Контакты</a></li>
+          </ul>
+
+        </nav>
+
+        <ul class="info-nav list header-connect">
+          <li class="menu-info">
+            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a> </li>
+          <li class="menu-info">
+             <div class="about"></div><a href="tel:+380961111111" class="link">+38 096 111 11 11</a> </li>
         </ul>
-
-      </nav>
-
-      <ul class="info-nav list">
-        <li> <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a> </li>
-        <li> <a href="tel:+380961111111" class="link">+38 096 111 11 11</a> </li>
-      </ul>
-
+      </div>
     </header>
 
     <main>
@@ -51,24 +59,24 @@
       </div>
     
       <!--Приоритеты-->
-      <section class="section">
-        <ul class="list">
-          <li>
+      <section class="section ">
+        <ul class="list section-container">
+          <li class="item">
             <h3 class="section-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
             <p class="section-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
           </li> 
 
-          <li>
+          <li class="item">
             <h3 class="section-title">ПУНКТУАЛЬНОСТЬ</h3>
             <p class="section-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
           </li>
 
-          <li>
+          <li class="item">
             <h3 class="section-title">ПЛАНИРОВАНИЕ</h3>
             <p class="section-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
           </li>
 
-          <li>
+          <li class="item">
             <h3 class="section-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
             <p class="section-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
           </li>
@@ -77,48 +85,60 @@
       </section>
 
       <!--Чем мы занимаемся-->
-      <section class="section">
-        <h2 class="section-work">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li><img src="./images/box1.jpg" alt="работа за компьютером" width="370" /></li>
-          <li><img src="./images/box2.jpg" alt="ноутбук и телефон" width="370" /></li>
-          <li><img src="./images/box3.jpg" alt="планшет" width="370" /></li>
-        </ul>
+
+      <section class="section-box ">
+        <div class="conteiner">
+          <h2 class="section-work">Чем мы занимаемся</h2>
+            <ul class="about-list list">
+              <li class="about-item"><img src="./images/box1.jpg" alt="работа за компьютером" width="370" /></li>
+              <li class="about-item"><img src="./images/box2.jpg" alt="ноутбук и телефон" width="370" /></li>
+              <li class="about-item"><img src="./images/box3.jpg" alt="планшет" width="370" /></li>
+            </ul>
+        </div>
       </section>
 
       <!--Наша команда-->
       <section class="command">
-        <h2 class="command-title">Наша команда</h2>
-        <ul class="list">
+        <div class="container">
+          <h2 class="command-title command-pre-title">Наша команда</h2>
+
+          <ul class="list command-list">
+            
+            <li class="command-item">
+              <img src="images/photo1.jpg" alt="photo" width="270" />
+              <div class="command-item-description">
+                <h3 class="command-subject">Игорь Демьяненко</h3>
+                <p class="command-text">Product Designer</p>
+              </div>
+            </li>
+
+            <li class="command-item">
+              <img src="images/photo2.jpg" alt="photo" width="270" />
+              <div class="command-item-description">
+                <h3 class="command-subject">Ольга Репина</h3>
+                <p class="command-text">Frontend Developer</p>
+              </div>
+            </li>
+
+            <li class="command-item">
+              <img src="images/photo3.jpg" alt="photo" width="270" />
+              <div class="command-item-description">
+                <h3 class="command-subject">Николай Тарасов</h3>
+                <p class="command-text">Marketing</p>
+              </div>
+            </li>
+
+            <li class="command-item">
+              <img src="images/photo4.jpg" alt="photo" width="270" />
+              <div class="command-item-description">
+                <h3 class="command-subject">Михаил Ермаков</h3>
+                <p class="command-text">UI Designer</p>
+              </div>
+            </li>
 
 
-          <li>
-           <img src="images/photo1.jpg" alt="photo" width="270" />
-           <h3 class="command-subject">Игорь Демьяненко</h3>
-            <p class="command-text">Product Designer</p>
-
-          </li>
-
-         <li>
-           <img src="images/photo2.jpg" alt="photo" width="270" />
-           <h3 class="command-subject">Ольга Репина</h3>
-           <p class="command-text">Frontend Developer</p>
-          </li>
-
-          <li>
-           <img src="images/photo3.jpg" alt="photo" width="270" />
-           <h3 class="command-subject">Николай Тарасов</h3>
-            <p class="command-text">Marketing</p>
-          </li>
-
-          <li>
-            <img src="images/photo4.jpg" alt="photo" width="270" />
-            <h3 class="command-subject">Михаил Ермаков</h3>
-           <p class="command-text">UI Designer</p>
-          </li>
-
-
-        </ul>
+          </ul>
+        </div>
       </section>
 
     </main>
